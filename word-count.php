@@ -7,13 +7,13 @@ Version: 1.0
 Author: satsabbir11
 Author URI: https://github.com/satsabbir11
 License: GPLv2 or later
-Text Domain: word-count
+Text Domain: wordcount
 Domain Path: /languages/
 */
 
 
 function wordcount_load_textdomain(){
-    load_plugin_textdomain('word-count',false,dirname(__FILE__)."/languages");
+    load_plugin_textdomain('wordcount',false,dirname(__FILE__)."/languages");
 }
 add_action("plugins_loaded","wordcount_load_textdomain");
 
